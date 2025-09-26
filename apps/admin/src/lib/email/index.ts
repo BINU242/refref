@@ -12,7 +12,7 @@ import { magicLinkTemplate, invitationTemplate } from "./templates";
 class EmailService {
   private resend: Resend | null = null;
   private isDevelopmentMode = false;
-  private defaultFrom = "RefRef <notifications@mail.refref.ai>";
+  private defaultFrom = "RefRef <notifications@affiliate.wcapi.io>";
 
   constructor(apiKey?: string) {
     if (apiKey) {
